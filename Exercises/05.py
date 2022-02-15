@@ -6,4 +6,4 @@ print();
 percent = int(input('Enter the discount: '));
 discount = (percent * price) / 100;
 print();
-print(f'RESULT: With the {percent}%(-{discount:.2f}) discount, the product now costs {(price - discount):.2f}');
+print(f'RESULT: With the {percent}% discount (-{discount:.2f}), the product now costs {(price - discount):.2f}');
