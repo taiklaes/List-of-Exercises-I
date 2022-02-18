@@ -1,6 +1,6 @@
 #Exercise 08
 print('<<Fahrenheit to Celsius Converter>>');
 print();
-f = float(input('Enter the value in degrees: '));
+fahrenheit = float(input('Enter the value in degrees: '));
 print();
-print(f'RESULT: {f:.1f}°F to {((f - 32) * 5 / 9):.1f}°C');
+print(f'RESULT: {fahrenheit:.1f}°F to {((fahrenheit - 32) * 5 / 9):.1f}°C');
